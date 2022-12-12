@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "CompanionsandSoldiers",
-				"abbreviation": "cns",
+				"abbreviation": "C&S",
 				"full": "Companions and Soldiers",
 				"url": "",
 				"authors": [
@@ -13,7 +13,7 @@
 			}
 		]
 	},
-	"monsters": [
+	"monster": [
 		{
 	"name": "Bard Aasimar",
 	"source": "Companions and Soldiers",
