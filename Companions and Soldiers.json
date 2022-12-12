@@ -128,7 +128,7 @@
 	"spellcastingTags": [
 		"CB"
 	],
-	"cr": "2",
+	"cr": "1",
 	"trait": [
 		{
 			"name": "Song of Rest",
@@ -213,6 +213,7 @@
 		"Celestial",
 		"Common"
 	],
+	"cr": "1",
 	"trait": [
 		{
 			"name": "Improved Critical",
