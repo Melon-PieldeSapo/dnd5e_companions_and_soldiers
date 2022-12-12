@@ -5,7 +5,7 @@
 				"json": "CompanionsandSoldiers",
 				"abbreviation": "C&S",
 				"full": "Companions and Soldiers",
-				"url": "",
+				"url": "https://github.com/Melon-PieldeSapo/dnd5e_companions_and_soldiers",
 				"authors": [
 					"Melon"
 				],
@@ -166,8 +166,9 @@
 		"MW",
 		"RW",
 		"RNG"
-	]
-},
+	],
+	"isNpc": true
+	},
 		{
 	"name": "Warrior Aasimar",
 	"source": "Companions and Soldiers",
