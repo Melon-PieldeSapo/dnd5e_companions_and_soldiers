@@ -15,6 +15,156 @@
 	},
 	"monster": [
 		{
+	"name": "Bard Aasimar",
+	"source": "CompanionsandSoldiers",
+	"page": 1,
+	"level": 4,
+	"size": [
+		"M"
+	],
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			{
+				"tag": "aasimar",
+				"prefix": "Aasimar"
+			}
+		]
+	},
+	"ac": [
+		{
+			"ac": 15,
+			"from": [
+				"{@item chain shirt|phb}"
+			]
+		}
+	],
+	"hp": {
+		"formula": "5d8 + 5",
+		"average": 27
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 10,
+	"dex": 14,
+	"con": 12,
+	"int": 10,
+	"wis": 12,
+	"cha": 14,
+	"skill": {
+		"perception": "+3",
+		"survival": "+3",
+		"performance": "+4"
+	},
+	"passive": 13,
+	"languages": [
+		"Common",
+		"Celestial"
+	],
+	"languageTags": [
+		"C",
+		"CE"
+	],
+	"damageTags": [
+		"P"
+	],
+	"tokenUrl": "https://5e.tools/img/ESK/Warrior.png",
+	"alignment": [
+		"L",
+		"G"
+	],
+	"senses": [
+		"Darkvision 60 feets"
+	],
+	"senseTags": [
+		"D"
+	],
+	"save": {
+		"dex": "+4",
+		"cha": "+4"
+	},
+	"resist": [
+		"necrotic",
+		"radiant"
+	],
+	"spellcasting": [
+		{
+			"name": "Spellcasting",
+			"headerEntries": [
+				"The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, +4 to hit with spell attacks). It has the following bard spells prepared:"
+			],
+			"spells": {
+				"0": {
+					"spells": [
+						"{@spell friends}",
+						"{@spell mage hand}",
+						"{@spell mending}"
+					]
+				},
+				"1": {
+					"spells": [
+						"{@spell charm person}",
+						"{@spell comprehend languages}",
+						"{@spell cure wounds}",
+						"{@spell identify}"
+					],
+					"slots": 4
+				},
+				"2": {
+					"spells": [
+						"{@spell lesser restoration}",
+						"{@spell see invisibility}"
+					],
+					"slots": 3
+				}
+			},
+			"ability": "cha",
+			"type": "spellcasting"
+		}
+	],
+	"spellcastingTags": [
+		"CB"
+	],
+	"cr": "2",
+	"trait": [
+		{
+			"name": "Song of Rest",
+			"entries": [
+				"The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra {@dice 1d6} hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well."
+			]
+		},
+		{
+			"name": "Bardic Inspiration (2/rest)",
+			"entries": [
+				"The bard use a bonus action to choose one creature an ally within 60 feet. That creature gains one Bardic Inspiration die, a {@dice d6}."
+			]
+		}
+	],
+	"damageTagsSpell": [
+		"F"
+	],
+	"action": [
+		{
+			"name": "Shortsword",
+			"entries": [
+				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+			]
+		},
+		{
+			"name": "Shortbow",
+			"entries": [
+				"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+			]
+		}
+	],
+	"miscTags": [
+		"MW",
+		"RW",
+		"RNG"
+	]
+},
+		{
 	"name": "Warrior Aasimar",
 	"source": "C&S",
 	"level": 4,
