@@ -16,7 +16,7 @@
 	"monster": [
 		{
 	"name": "Bard Aasimar",
-	"source": "CompanionsandSoldiers",
+	"source": "Companions and Soldiers",
 	"page": 1,
 	"level": 4,
 	"size": [
@@ -166,7 +166,7 @@
 },
 		{
 	"name": "Warrior Aasimar",
-	"source": "C&S",
+	"source": "Companions and Soldiers",
 	"level": 4,
 	"size": [
 		"M"
