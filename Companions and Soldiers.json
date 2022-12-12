@@ -1,245 +1,136 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "CompanionsandSoldiers",
-				"abbreviation": "cns",
-				"full": "Companions and Soldiers",
-				"url": "",
-				"authors": [
-					"Melon"
-				],
-				"convertedBy": []
-			}
-		]
-	},
-	"monster": [
-		{
-	"name": "Warrior Aasimar",
-	"source": "Npccompanions",
-	"level": 4,
-	"size": [
-		"M"
-	],
-	"type": {
-		"type": "humanoid",
-		"tags": [
-			{
-				"tag": "aasimar",
-				"prefix": "Aasimar"
-			}
-		]
-	},
-	"ac": [
-		{
-			"ac": 19,
-			"from": [
-				"{@item splint armor|phb}",
-				"{@item shield|phb}"
-			]
-		}
-	],
-	"hp": {
-		"formula": "5d10 + 8",
-		"average": 35
-	},
-	"speed": {
-		"walk": 30
-	},
-	"str": 16,
-	"dex": 14,
-	"con": 14,
-	"int": 10,
-	"wis": 12,
-	"cha": 12,
-	"skill": {
-		"athletics": "+6",
-		"perception": "+4",
-		"survival": "+4"
-	},
-	"passive": 14,
-	"languages": [
-		"Celestial",
-		"Common"
-	],
-	"trait": [
-		{
-			"name": "Improved Critical",
-			"entries": [
-				"The warrior's attack rolls score a critical hit on a roll of 19 or 20 on the {@dice d20}."
-			]
-		}
-	],
-	"action": [
-		{
-			"name": "Extra Attack",
-			"entries": [
-				"The warrior can attack twice, instead of once, whenever it takes the {@action Attack} action on its turn."
-			]
-		},
-		{
-			"name": "Longsword",
-			"entries": [
-				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
-			]
-		},
-		{
-			"name": "Longbow",
-			"entries": [
-				"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
-			]
-		}
-	],
-	"reaction": [
-		{
-			"name": "Protection",
-			"entries": [
-				"The warrior imposes disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the warrior. The warrior must be able to see the attacker."
-			]
-		}
-	],
-	"languageTags": [
-		"CE",
-		"C"
-	],
-	"damageTags": [
-		"P",
-		"S"
-	],
-	"miscTags": [
-		"MW",
-		"RW",
-		"RNG"
-	],
-	"tokenUrl": "https://5e.tools/img/SLW/Warrior.png",
-	"alignment": [
-		"L",
-		"G"
-	],
-	"senses": [
-		"Darkvision 60 feet"
-	],
-	"senseTags": [
-		"D"
-	],
-	"save": {
-		"con": "+4",
-		"dex": "+4"
-	},
-	"resist": [
-		"necrotic",
-		"radiant"
-	],
-	"isNpc": true
-},
-
-		{
-			"name": "Warrior",
-			"source": "CompanionsandSoldiers",
-			"page": 63,
-			"level": 1,
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"sidekickType": "warrior",
-				"sidekickHidden": true
-			},
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item chain shirt|phb}",
-						"{@item shield|phb}"
-					]
-				}
-			],
-			"hp": {
-				"average": 13,
-				"formula": "2d8 + 4"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 15,
-			"dex": 13,
-			"con": 14,
-			"int": 10,
-			"wis": 12,
-			"cha": 10,
-			"save": {
-				"con": "+4"
-			},
-			"skill": {
-				"athletics": "+4",
-				"perception": "+3",
-				"survival": "+3"
-			},
-			"passive": 13,
-			"languages": [
-				"Common",
-				"plus one of your choice"
-			],
-			"trait": [
-				{
-					"name": "Martial Role",
-					"entries": [
-						"The warrior has one of the following traits of your choice:",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Attacker",
-									"entry": "The warrior gains a +2 bonus to attack rolls."
-								},
-								{
-									"type": "item",
-									"name": "Defender",
-									"entry": "The warrior gains the Protection reaction below."
-								}
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Longsword",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands."
-					]
-				},
-				{
-					"name": "Longbow",
-					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Protection (Defender Only)",
-					"entries": [
-						"The warrior imposes disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the warrior. The warrior must be able to see the attacker."
-					]
-				}
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW",
-				"RNG",
-				"RW"
-			],
-			"tokenUrl": "https://5e.tools/img/ESK/Warrior.png"
-		}
-	]
+  "_meta": {
+    "sources": [
+      {
+        "json": "CompanionsandSoldiers",
+        "abbreviation": "cns",
+        "full": "Companions and Soldiers",
+        "url": "",
+        "authors": [
+          "Melon"
+        ],
+        "convertedBy": []
+      }
+    ]
+  },
+  "monster": [
+    {
+      "name": "Warrior Aasimar",
+      "source": "C&S",
+      "level": 4,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          {
+            "tag": "aasimar",
+            "prefix": "Aasimar"
+          }
+        ]
+      },
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "{@item splint armor|phb}",
+            "{@item shield|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d10 + 8",
+        "average": 35
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 12,
+      "skill": {
+        "athletics": "+6",
+        "perception": "+4",
+        "survival": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "Celestial",
+        "Common"
+      ],
+      "trait": [
+        {
+          "name": "Improved Critical",
+          "entries": [
+            "The warrior's attack rolls score a critical hit on a roll of 19 or 20 on the {@dice d20}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Extra Attack",
+          "entries": [
+            "The warrior can attack twice, instead of once, whenever it takes the {@action Attack} action on its turn."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Protection",
+          "entries": [
+            "The warrior imposes disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the warrior. The warrior must be able to see the attacker."
+          ]
+        }
+      ],
+      "languageTags": [
+        "CE",
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "RNG"
+      ],
+      "tokenUrl": "https://5e.tools/img/SLW/Warrior.png",
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "senses": [
+        "Darkvision 60 feet"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "save": {
+        "con": "+4",
+        "dex": "+4"
+      },
+      "resist": [
+        "necrotic",
+        "radiant"
+      ],
+      "isNpc": true
+    }
+  ]
 }
