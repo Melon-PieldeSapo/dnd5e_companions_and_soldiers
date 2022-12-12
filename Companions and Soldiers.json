@@ -9,11 +9,13 @@
 				"authors": [
 					"Melon"
 				],
-				"convertedBy": []
+				"convertedBy": ["Melon"],
+				"version": "0.0.1",
+            	"targetSchema": "1.0"
 			}
 		],
 		"dateAdded": 1670873410,
-		"dateLastModified": 1670873423
+		"dateLastModified": 1670873823
 	},
 	"monster": [
 		{
