@@ -11,7 +11,9 @@
 				],
 				"convertedBy": []
 			}
-		]
+		],
+		"dateAdded": 1670873410,
+		"dateLastModified": 1670873413
 	},
 	"monster": [
 		{
@@ -182,10 +184,9 @@
 	},
 	"ac": [
 		{
-			"ac": 19,
+			"ac": 17,
 			"from": [
-				"{@item splint armor|phb}",
-				"{@item shield|phb}"
+				"{@item splint armor|phb}"
 			]
 		}
 	],
